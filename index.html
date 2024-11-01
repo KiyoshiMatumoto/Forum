@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mensagem</title>
+</head>
+<body>
+    <button id="openPopup">Bate-Papo</button>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close" id="closePopup">&times;</span>
+            <h2>Bem-Vindo ao Bate-Papo</h2>
+            <textarea id="message" placeholder="Digite sua mensagem aqui..." rows="5"></textarea>
+            <div class="button-container">
+                <button id="sendMessage">Enviar</button>
+                <button id="closePopupInline">Fechar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
